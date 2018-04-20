@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brekkie Drop-Down Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="brekkie.jpg" id="backgroundimg" alt="bakgrundsbild på frukostbricka" />
+    <flexbox id=flexcontainer-external>
+        <flexbox class=flexcontainer-internal id=orderSelection>
+            <div class=products id=frukostpåse>
+                <div class=productname>frukostpåse</div>
+                <flexbox class=options>
+                    <select>
+                        <option>liten - smörgås och juice</option>
+                        <option>mellan - smörgås, bowl och juice</option>
+                        <option>stor - smörgås, bowl, juice och shot</option>
+                    </select>
+                </flexbox>
+            </div>
+            <div class=products id=smörgåsar>
+                <div class=productname>smörgåsar</div>
+                <flexbox class=options>
+                    <select>
+                        <option>morotsbröd med avokado</option>
+                        <option>morotsbröd med tomat och lagrad ost</option>
+                        <option>morotsbröd med taleggio</option>
+                    </select>
+                </flexbox>
+            </div>
+            <div class=products id=bowls>
+                <div class=productname>bowls</div>
+                <flexbox class=options>
+                    <select>
+                        <option>vispad yoghurt med äppelkompott</option>
+                        <option>vispad yoghurt med jordgubbskompott</option>
+                        <option>vispad yoghurt med hallonkompott</option>
+                        <option>vispad yoghurt med citron och passionsfrukt</option>
+                        <option>vispad yoghurt med päron och rostad mandel</option>
+                        <option>chiagröt med nötsmör, honung och banan</option>
+                        <option>frukt och bär</option>
+                    </select>
+                </flexbox>
+            </div>
+            <div class=products id=juicer>
+                <div class=productname>juicer</div>
+                <flexbox class=options>
+                    <select>
+                        <option>rödbeta och äpple</option>
+                        <option>spenat och ananas</option>
+                        <option>morot och ingefära</option>
+                    </select>
+                    <!--<span id=shot>shot på ingefära</span>-->
+                </flexbox>
+            </div>
+            <div class=products id=efter>
+                <div class=productname>efter frukost</div>
+                <flexbox class=options>
+                    <select>
+                        <option>litet rawfood bakverk</option>
+                        <option>liten rawfood boll</option>
+                    </select>
+                </flexbox>
+            </div>
+        </flexbox>
+        <flexbox class=flexcontainer-internal id=orderSelected>Placeholder for order summary</flexbox>
+    </flexbox>
+</body>
+
+</html>
